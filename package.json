@@ -9,6 +9,7 @@
     "test": "ng test",
     "serve:ssr:frontend-job_portal": "node dist/frontend-job_portal/server/server.mjs",
     "prettier:fix": "prettier --write \"src/**/*.{ts,js,json,css,html,scss}\"",
+    "prettier:check": "prettier --check \"src/**/*.{ts,js,json,css,html,scss}\"",
     "prepare": "husky"
   },
   "private": true,
